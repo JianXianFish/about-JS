@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>步骤</title>
+
+<link rel="stylesheet" href="css/ystep.css">
+
+</head>
+  <body>
+  <h1>显示点击按钮 不可操作进度条节点</h1>
+  <div class="stepCont stepCont2">
+      <!-- <div class="ystep"></div> -->
+      <div class='ystep-container ystep-lg ystep-blue'></div>
+      <div class="pageCont">
+          <div id="page1" class="stepPage">
+              <h1>
+                  爱情36记
+              </h1>
+          </div>
+          <div id="page2" class="stepPage">
+              <h1>
+                  sss
+              </h1>
+          </div>
+          <div id="page3" class="stepPage">
+              <h1>
+                  sss
+              </h1>
+          </div>
+          <div id="page4" class="stepPage">
+              <h1>
+                  sss
+              </h1>
+          </div>
+           <div id="page5" class="stepPage">
+              <h1>
+                  sss
+              </h1>
+          </div>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/setStep.js"></script>
+  <script>
+    var step2=new SetStep({
+        content:'.stepCont2',
+        clickAble:false
+    })
+  </script>
+  
+  </body>
+</html>
