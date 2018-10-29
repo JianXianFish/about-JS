@@ -121,8 +121,7 @@ $('.navbar-nav a[href*=#]').click(function() {
 //数字递增
 var wrapTop = $("#id").offset().top;
 var istrue = true;
-$(window).on("scroll",
-function() {
+$(window).on("scroll",function() {
     var s = $(window).scrollTop();
     if (s > wrapTop - 600 && istrue) {
         $(".incrementing").each(count);
